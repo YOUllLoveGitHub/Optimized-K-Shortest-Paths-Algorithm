@@ -1,6 +1,6 @@
 # Optimized-K-Shortest-Paths
 
-The OKSP algorithm efficiently solves the three-tier caching problem, involving user, nearby server cluster, and cloud server. The time complexity of the algorithm is $O((K\cdot M + N) \cdot M \cdot \log N))$, where $K$ is the total number of tiles that all $M$ MEC servers can cache in collaboration, and $N$ is the number of different tile files. 
+The OKSP algorithm efficiently solves the three-tier caching problem, involving users, nearby server cluster, and cloud server. The time complexity of the algorithm is $O((K\cdot M + N) \cdot M \cdot \log N))$, where $K$ is the total number of tiles that all $M$ MEC servers can cache in collaboration, and $N$ is the number of different tile files. 
 
 And we added the **output_lp_file** function to the code. This function outputs the linear programming input file of the original problem, and the lp solver can be called to verify the correctness of the solution given by the OKSP algorithm. 
 
