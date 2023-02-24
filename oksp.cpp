@@ -294,7 +294,7 @@ void output_lp_file() {
 
     string in_flows, out_flows;
 
-    // 添加流守恒约束和流变量约束
+    // Add flow conservation constraints and flow variable constraints
     for(int n = 0; n < N; n++) {
         in_flows = "";
         for(int d = 0; d < M; d++) {
